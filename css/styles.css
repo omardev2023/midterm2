@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Foldit:wght@300&family=Josefin+Sans:ital,wght@0,400;0,500;1,300&family=Montserrat:wght@300;400;500;600&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    transition: transform 300ms ease;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.square-container {
+    width: 220px;
+    height: 270px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+.grid-gap {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.square-container:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
